@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B612E83A2482BB5C00369539 /* WorldTotalStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E8392482BB5C00369539 /* WorldTotalStats.swift */; };
+		B612E83C2482D75D00369539 /* WorldStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E83B2482D75D00369539 /* WorldStatsViewModel.swift */; };
+		B612E83E2482DD2B00369539 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E83D2482DD2B00369539 /* CountryListView.swift */; };
+		B612E8402482DDF300369539 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E83F2482DDF300369539 /* ListHeaderView.swift */; };
+		B612E8422482EE9800369539 /* CountryStatsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E8412482EE9800369539 /* CountryStatsRowView.swift */; };
+		B612E8442483C1CC00369539 /* CountryStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B612E8432483C1CC00369539 /* CountryStatsViewModel.swift */; };
+		B6466AD82412942600E83990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6466AD72412942600E83990 /* AppDelegate.swift */; };
+		B6466ADA2412942600E83990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6466AD92412942600E83990 /* SceneDelegate.swift */; };
+		B6466ADC2412942600E83990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6466ADB2412942600E83990 /* ContentView.swift */; };
+		B6466ADE2412943400E83990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6466ADD2412943400E83990 /* Assets.xcassets */; };
+		B6466AE12412943400E83990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6466AE02412943400E83990 /* Preview Assets.xcassets */; };
+		B6466AE42412943400E83990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6466AE22412943400E83990 /* LaunchScreen.storyboard */; };
+		B64E6D3D2482B07F00122E47 /* CountryStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64E6D3C2482B07F00122E47 /* CountryStats.swift */; };
+		B66B6839242F4F95008E6329 /* CountriesStatDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B6838242F4F95008E6329 /* CountriesStatDTO.swift */; };
+		B66B683B242F5312008E6329 /* LatestStatsByCountriesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B683A242F5312008E6329 /* LatestStatsByCountriesDTO.swift */; };
+		B67103E3242B93C400E4B294 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67103E2242B93C400E4B294 /* CountryListViewModel.swift */; };
+		B67BB7B3242CE7F000D764D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67BB7B2242CE7F000D764D8 /* Extensions.swift */; };
+		B67D72FF243161240081A0B5 /* WorldTotalStatsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D72FE243161240081A0B5 /* WorldTotalStatsDTO.swift */; };
+		B67D73052431FB040081A0B5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D73042431FB040081A0B5 /* Request.swift */; };
+		B67D73072431FC0E0081A0B5 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D73062431FC0E0081A0B5 /* Endpoint.swift */; };
+		B6EE9F6D242A885000CCBBFD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE9F6C242A885000CCBBFD /* Networking.swift */; };
+		BD766006616B3D4426245858 /* Pods_CoronavirusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73348F661D31CF47CDE6991B /* Pods_CoronavirusApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376EF453F21CD40203E6B8DF /* Pods-CoronavirusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronavirusApp.release.xcconfig"; path = "Target Support Files/Pods-CoronavirusApp/Pods-CoronavirusApp.release.xcconfig"; sourceTree = "<group>"; };
+		73348F661D31CF47CDE6991B /* Pods_CoronavirusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronavirusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B612E8392482BB5C00369539 /* WorldTotalStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTotalStats.swift; sourceTree = "<group>"; };
+		B612E83B2482D75D00369539 /* WorldStatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldStatsViewModel.swift; sourceTree = "<group>"; };
+		B612E83D2482DD2B00369539 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		B612E83F2482DDF300369539 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		B612E8412482EE9800369539 /* CountryStatsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryStatsRowView.swift; sourceTree = "<group>"; };
+		B612E8432483C1CC00369539 /* CountryStatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryStatsViewModel.swift; sourceTree = "<group>"; };
+		B6466AD42412942600E83990 /* CoronavirusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronavirusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6466AD72412942600E83990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6466AD92412942600E83990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6466ADB2412942600E83990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6466ADD2412943400E83990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6466AE02412943400E83990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6466AE32412943400E83990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6466AE52412943400E83990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64E6D3C2482B07F00122E47 /* CountryStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryStats.swift; sourceTree = "<group>"; };
+		B66B6838242F4F95008E6329 /* CountriesStatDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesStatDTO.swift; sourceTree = "<group>"; };
+		B66B683A242F5312008E6329 /* LatestStatsByCountriesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestStatsByCountriesDTO.swift; sourceTree = "<group>"; };
+		B67103E2242B93C400E4B294 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		B67BB7B2242CE7F000D764D8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B67D72FE243161240081A0B5 /* WorldTotalStatsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTotalStatsDTO.swift; sourceTree = "<group>"; };
+		B67D73042431FB040081A0B5 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B67D73062431FC0E0081A0B5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B6EE9F6C242A885000CCBBFD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		DE03CD2D3613996A8408CE8F /* Pods-CoronavirusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronavirusApp.debug.xcconfig"; path = "Target Support Files/Pods-CoronavirusApp/Pods-CoronavirusApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6466AD12412942600E83990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD766006616B3D4426245858 /* Pods_CoronavirusApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5FB92939C1BE1F0F3B1BE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE03CD2D3613996A8408CE8F /* Pods-CoronavirusApp.debug.xcconfig */,
+				376EF453F21CD40203E6B8DF /* Pods-CoronavirusApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B612E8452483E95F00369539 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE9F6C242A885000CCBBFD /* Networking.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B612E8462483E96900369539 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B67D73062431FC0E0081A0B5 /* Endpoint.swift */,
+				B67BB7B2242CE7F000D764D8 /* Extensions.swift */,
+				B67D73042431FB040081A0B5 /* Request.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		B6466ACB2412942500E83990 = {
+			isa = PBXGroup;
+			children = (
+				B6466AD62412942600E83990 /* CoronavirusApp */,
+				B6466AD52412942600E83990 /* Products */,
+				0C5FB92939C1BE1F0F3B1BE1 /* Pods */,
+				FE8E1CCAA432739427A3C182 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6466AD52412942600E83990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6466AD42412942600E83990 /* CoronavirusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6466AD62412942600E83990 /* CoronavirusApp */ = {
+			isa = PBXGroup;
+			children = (
+				B66B6843242FD856008E6329 /* Models */,
+				B66B6842242FD849008E6329 /* Views */,
+				B66B6844242FD867008E6329 /* ViewModels */,
+				B612E8452483E95F00369539 /* Services */,
+				B612E8462483E96900369539 /* SupportFiles */,
+				B6466AD72412942600E83990 /* AppDelegate.swift */,
+				B6466AD92412942600E83990 /* SceneDelegate.swift */,
+				B6466ADD2412943400E83990 /* Assets.xcassets */,
+				B6466AE52412943400E83990 /* Info.plist */,
+				B6466ADF2412943400E83990 /* Preview Content */,
+			);
+			path = CoronavirusApp;
+			sourceTree = "<group>";
+		};
+		B6466ADF2412943400E83990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6466AE02412943400E83990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B66B6842242FD849008E6329 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6466AE22412943400E83990 /* LaunchScreen.storyboard */,
+				B6466ADB2412942600E83990 /* ContentView.swift */,
+				B612E83D2482DD2B00369539 /* CountryListView.swift */,
+				B612E83F2482DDF300369539 /* ListHeaderView.swift */,
+				B612E8412482EE9800369539 /* CountryStatsRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B66B6843242FD856008E6329 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B64E6D3C2482B07F00122E47 /* CountryStats.swift */,
+				B612E8392482BB5C00369539 /* WorldTotalStats.swift */,
+				B66B6845242FD876008E6329 /* DTO */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B66B6844242FD867008E6329 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B67103E2242B93C400E4B294 /* CountryListViewModel.swift */,
+				B612E83B2482D75D00369539 /* WorldStatsViewModel.swift */,
+				B612E8432483C1CC00369539 /* CountryStatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B66B6845242FD876008E6329 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				B66B6838242F4F95008E6329 /* CountriesStatDTO.swift */,
+				B66B683A242F5312008E6329 /* LatestStatsByCountriesDTO.swift */,
+				B67D72FE243161240081A0B5 /* WorldTotalStatsDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		FE8E1CCAA432739427A3C182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73348F661D31CF47CDE6991B /* Pods_CoronavirusApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6466AD32412942600E83990 /* CoronavirusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6466AE82412943400E83990 /* Build configuration list for PBXNativeTarget "CoronavirusApp" */;
+			buildPhases = (
+				177E360E3459AD662C0A22A8 /* [CP] Check Pods Manifest.lock */,
+				B6466AD02412942600E83990 /* Sources */,
+				B6466AD12412942600E83990 /* Frameworks */,
+				B6466AD22412942600E83990 /* Resources */,
+				B6027849247CFAEC0000C922 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoronavirusApp;
+			productName = DemoTest;
+			productReference = B6466AD42412942600E83990 /* CoronavirusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6466ACC2412942500E83990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jędrzej Chołuj";
+				TargetAttributes = {
+					B6466AD32412942600E83990 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B6466ACF2412942500E83990 /* Build configuration list for PBXProject "CoronavirusApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6466ACB2412942500E83990;
+			productRefGroup = B6466AD52412942600E83990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6466AD32412942600E83990 /* CoronavirusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6466AD22412942600E83990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6466AE42412943400E83990 /* LaunchScreen.storyboard in Resources */,
+				B6466AE12412943400E83990 /* Preview Assets.xcassets in Resources */,
+				B6466ADE2412943400E83990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177E360E3459AD662C0A22A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoronavirusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6027849247CFAEC0000C922 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6466AD02412942600E83990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6466AD82412942600E83990 /* AppDelegate.swift in Sources */,
+				B67D73052431FB040081A0B5 /* Request.swift in Sources */,
+				B6466ADA2412942600E83990 /* SceneDelegate.swift in Sources */,
+				B612E83A2482BB5C00369539 /* WorldTotalStats.swift in Sources */,
+				B6EE9F6D242A885000CCBBFD /* Networking.swift in Sources */,
+				B67D72FF243161240081A0B5 /* WorldTotalStatsDTO.swift in Sources */,
+				B67BB7B3242CE7F000D764D8 /* Extensions.swift in Sources */,
+				B612E83C2482D75D00369539 /* WorldStatsViewModel.swift in Sources */,
+				B66B683B242F5312008E6329 /* LatestStatsByCountriesDTO.swift in Sources */,
+				B6466ADC2412942600E83990 /* ContentView.swift in Sources */,
+				B612E8402482DDF300369539 /* ListHeaderView.swift in Sources */,
+				B67D73072431FC0E0081A0B5 /* Endpoint.swift in Sources */,
+				B66B6839242F4F95008E6329 /* CountriesStatDTO.swift in Sources */,
+				B612E8442483C1CC00369539 /* CountryStatsViewModel.swift in Sources */,
+				B612E83E2482DD2B00369539 /* CountryListView.swift in Sources */,
+				B64E6D3D2482B07F00122E47 /* CountryStats.swift in Sources */,
+				B612E8422482EE9800369539 /* CountryStatsRowView.swift in Sources */,
+				B67103E3242B93C400E4B294 /* CountryListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6466AE22412943400E83990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6466AE32412943400E83990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6466AE62412943400E83990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "Users/jedrzejcholuj/Desktop/Xcode Projects/CoronavirusApp/CoronavirusApp/Preview Content/Preview Assets.xcassets/ /Users/jedrzejcholuj/Desktop/Xcode Projects/CoronavirusApp/CoronavirusApp/Assets.xcassets/";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6466AE72412943400E83990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "Users/jedrzejcholuj/Desktop/Xcode Projects/CoronavirusApp/CoronavirusApp/Preview Content/Preview Assets.xcassets/ /Users/jedrzejcholuj/Desktop/Xcode Projects/CoronavirusApp/CoronavirusApp/Assets.xcassets/";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6466AE92412943400E83990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE03CD2D3613996A8408CE8F /* Pods-CoronavirusApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoronavirusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UFWG2VBLB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CoronavirusApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jedrzejcholuj.DemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6466AEA2412943400E83990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376EF453F21CD40203E6B8DF /* Pods-CoronavirusApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoronavirusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UFWG2VBLB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CoronavirusApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jedrzejcholuj.DemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6466ACF2412942500E83990 /* Build configuration list for PBXProject "CoronavirusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6466AE62412943400E83990 /* Debug */,
+				B6466AE72412943400E83990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6466AE82412943400E83990 /* Build configuration list for PBXNativeTarget "CoronavirusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6466AE92412943400E83990 /* Debug */,
+				B6466AEA2412943400E83990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6466ACC2412942500E83990 /* Project object */;
+}
